@@ -102,7 +102,7 @@ var client = mqtt.connect("wss://smartgarden.cloud.shiftr.io", {
 
 client.on("connect", function () {
   console.log("Connected to shiftr.io broker");
-  client.subscribe("esp32/temp");
+  client.subscribe("esp32/json");
 });
 
 client.on("message", function (topic, message) {
