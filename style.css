@@ -355,7 +355,9 @@ h2 {
   .firebase-img {
     flex-direction: column;
   }
-
+  .firebase-img img {
+    max-height: 300px;
+  }
   .firebase-title h2 {
     font-size: 20px;
   }
