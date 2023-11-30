@@ -173,7 +173,7 @@ client.on("message", function (topic, message) {
   toggleButton(curtainButton, curtainStatus, "THU");
 
   // get value for threshold Soil title
-  soilValue.innerText = thresholdSoilValue;
+  soilValueprogress.innerText = thresholdSoilValue;
 });
 
 //========== ONCLICK TO PUBLISH ==========
